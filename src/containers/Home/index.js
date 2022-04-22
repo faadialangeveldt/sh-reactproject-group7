@@ -40,7 +40,7 @@ function Home() {
       <section>
         <div className=' bottom-container' style={{backgroundImage: `url(${bottomimg})`}}>
          <div>
-            <p>Stopright in.</p> 
+            <p>Stop right in.</p> 
             <button>Make a Reservation</button>
          </div>
         </div>
