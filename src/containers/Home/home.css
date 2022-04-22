@@ -1,3 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Raleway:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .home {
+  background-color: #f0f4e5;
+}
+.title-wrapper h1 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.144;
+  font-size: calc((4 - 1) * 1.2vw + 1rem);
   text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+
+}
+
+main {
+  padding: 17px;
+}
+
+main .title-container {
+  padding: 10px;
+  height: 300px;
+}
+
+main .title-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+
+.image-container {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.image-overlay {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.image-title-wrapper .img-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  50px 0px;
+}
+
+.image-title-wrapper .first {
+  flex-direction: column;
+}
+
+.image-title-wrapper .img-text > div {
+  font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+  line-height: 1.144;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.image-title-wrapper figure .grid:nth-of-type(1){
+  order: 2;
+
+}
+
+.bottom-container  {
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-container div p {
+  font-size: calc((4 - 1) * 1.2vh + 1rem);
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.144;
+  font-weight: bold;
+}
+
+.bottom-container div button {
+  background: #fff;
+  padding: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+@media screen and (min-width: 900px) {
+  main .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .title-container .title-wrapper {
+    width: 70%;
+  }
+
+  .image-container, .bottom-container  {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .bottom-container {
+    margin-top: 150px;
+  }
+
+  .image-title-wrapper figure {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+
+  .image-title-wrapper .img-text {
+    padding: 20px;
+  }
 }
