@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 import './header.css';
 
-function Header() {
+const Header = () => {
   return (
     <header>
+      <Link to="/" className="logo">react project G.7</Link>
       <nav>
         <li>
           <Link to="/">Home</Link>
