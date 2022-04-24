@@ -4,6 +4,7 @@ import './header.css';
 function Header() {
   return (
     <header>
+      <Link to="/" className="logo">react project G.7</Link>
       <nav>
         <li>
           <Link to="/">Home</Link>
