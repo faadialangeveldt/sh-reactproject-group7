@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Raleway:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+
 .about {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+.content-wrapper h1 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.2376;
+  font-size:calc((2.2 - 1) * 1.2vw + 1rem);
+  /* text-align: center; */
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  
+
+}
+main .content-container {
+  padding: 10px;
+  height: 600px;
+}
+
+main .content-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+
+@media screen and (min-width: 900px) {
+  main .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .content-container .content-wrapper {
+    width: 50%;
+  }
 }
