@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Raleway:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+    background-color: #f0f4e5;
+}
+
+footer section {
+    padding: 17px;
+    
+}
+
+.logoFooter {
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: calc((4 - 1) * 1vw + 1rem);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  footer section div {
+      margin-top: 30px;
+  }
+
+  footer section div {
+      padding: 5px;
+  }
+
+  footer section div ul li {
+      text-decoration: underline;
+      list-style-type: none;
+      font-size: calc((1.2 - 1) * 1.2vh + 1rem);
+      text-underline-offset: 0.2em;
+      cursor: pointer;
+  }
+
+  @media screen and (min-width: 900px) {
+    footer {
+
+    }
+    footer section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
+        margin: 0 auto;
+    }
+  }
