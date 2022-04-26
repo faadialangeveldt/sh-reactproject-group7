@@ -4,6 +4,11 @@ header {
   background-color: #f0f4e5;
 }
 
+header div {
+  width: 94%;
+  margin: 0 auto;
+}
+
 .logo {
   text-transform: capitalize;
   color: black;
@@ -42,7 +47,11 @@ nav li a:hover {
     padding: 15px 20px;
   }
 
+  header div {
+    border: 1px solid red;
+  }
   nav {
     letter-spacing: 0;
+    width: 90%;
   }
 }
